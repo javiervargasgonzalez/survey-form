@@ -1,0 +1,129 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Select a career survey</title>
+    <link rel="stylesheet"href="styles.css"/>
+    </head>
+    <body>
+          <h1 id="title">Select a Career</h1>
+          <p id="description">The purpose of this survey is to know which career are you interested in and if you are willing to matriculate for this career shortly</p>
+<form id="survey-form" method="post">
+  <fieldset>
+<label id="name-label"for="name">Enter your First Name:<input id="name"type="text"required placeholder="John"/></label>
+<label for="lastname">Enter your Last Name: <input id="lastname"type="text"required placeholder="C. Reilly"/></label>
+<label id="email-label" for="email">Enter your email <input id="email"type="email"required placeholder="comfortably-numb@pinkfloyd.com"/></label>
+<label id="number-label" for="number">Age: <input id="number"type="number"name="age"min="16"max="150" placeholder="55,000 years old" /> </label>
+    </fieldset>
+    <fieldset>
+    <label for="dropdown">How likely are you to attend college next year?  
+      <select id="dropdown" name="dropdown"required>
+        <option value="">(select one)</option>
+        <option value="1">Extremely likely</option>
+        <option value="2">Very likely</option>
+        <option value="3">Somewhat likely</option>
+        <option value="4">Not so likely</option>
+        <option value="5">Not at all likely</option>
+    </label>
+    <label for="Arts and Humanities"><input id="Arts and Humanities"type="radio"name="account-type"class="inline" checked value="radio"/> Arts and Humanities</label>
+    <label for="Business"><input id="Business"type="radio"name="account-type"class="inline" value="radio"/> Business</label>
+    <label for="Health and Medicine"><input id="Health and Medicine"type="radio"name="account-type"class="inline" value="radio"/> Health and Medicine</label>
+    <label for="Multi-Interdisciplinary Studies"><input id="Multi-Interdisciplinary Studies"type="radio"name="account-type"class="inline" value="radio"/> Multi-Interdisciplinary Studies</label>
+    <label for="Public and Social Services"><input id="Public and Social Services"type="radio"name="account-type"class="inline" value="radio"/> Public and Social Services</label>
+    <label for="Science, Technology, Engineering and Math"><input id="Science, Technology, Engineering and Math"type="radio"name="account-type"class="inline" value="radio"/> Science, Technology, Engineering and Math</label>
+    <label for="Social Sciences"><input id="Social Sciences"type="radio"name="account-type"class="inline"value="radio" /> Social Sciences</label>
+    <label for="Trades and Personal Services"><input id="Trades and Personal Services"type="radio"name="account-type"class="inline" value="radio"/> Trades and Personal Services</label>
+      </fieldset>
+      <fieldset>
+        <label for="bio">Tell us a bit about your interests in entering college: <textarea id="bio"name="bio"rows="4"cols="30"placeholder="college sounds like fun..."></textarea>
+        </label>
+          <label><input type="checkbox"class="inline" value="check"required/> Would you like to recieve emails about our college programs?</label>
+          <label>Please select your Gender:</label>
+          <label><input type="checkbox"class="inline" value="check"/>Male</label>
+        <label><input type="checkbox"class="inline" value="check"/>Female</label>
+         <label><input type="checkbox"class="inline" value="check"/>Other</label>
+        <input id="submit" type="submit" value="Submit" />
+      
+        </fieldset>
+        </body>
+      </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  width: 100%;
+  height: 100vh;
+  margin:0;
+  background-color: #2a3b6f;
+  color: rgba(223, 165, 126, 0.936);
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+h1{
+  font-size: 30px;
+  font-family: Tahoma;
+  color: rgba(223, 165, 126, 0.936);
+}
+h1,p{
+  margin: 1em auto;
+  text-align: center;
+}
+form{
+  width:80vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+fieldset{
+  border: none;
+  padding:1rem 0;
+  
+}
+label{
+  display:block;
+  margin: 0.6rem 0;
+}
+input,textarea,select{
+  margin:10px 0 0 0;
+  width: 100%;
+  min-height:1em;
+}
+input
+}
+input,textarea{
+  background-color: #1a4b8f;
+  border:0.5px solid #2a4b8f;
+  color: white;
+  display: block
+}
+.inline{
+  width:unset;
+  margin: 0 .5em 0 0;
+  vertical-align: middle;
+}
+input[type="submit"]{
+display: block;
+width: 60%;
+margin: 1em auto;
+height: 2em;
+font-size: 1.2rem;
+background-color: rgba(130, 24, 33, 0.861);
+border-color: rgba(134, 32, 40, 0.789);
+min-width: 300px;
+color: white;
+}
+input[type="file"]{
+  padding: 1px 2px;
+}
+.inline{
+  display: inline;
+}
+
+** end of undefined **
+

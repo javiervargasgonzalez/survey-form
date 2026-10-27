@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Select a career survey</title>
-    <link rel="stylesheet"href="styles.css"/>
+    
   <style>
     body{
   width: 100%;
@@ -80,15 +80,15 @@ input[type="file"]{
   </head>
   
     <body>
-          <h1 id="title">Select a Career</h1>
-          <p id="description">The purpose of this survey is to know which career are you interested in and if you are willing to matriculate for this career shortly</p>
+<h1 id="title">Select a Career</h1>
+<p id="description">The purpose of this survey is to know which career are you interested in and if you are willing to matriculate for this career shortly</p>
 <form id="survey-form" method="post">
   <fieldset>
-<label id="name-label"for="name">Enter your First Name:<input id="name"type="text"required placeholder="John"/></label>
-<label for="lastname">Enter your Last Name: <input id="lastname"type="text"required placeholder="C. Reilly"/></label>
-<label id="email-label" for="email">Enter your email <input id="email"type="email"required placeholder="comfortably-numb@pinkfloyd.com"/></label>
-<label id="number-label" for="number">Age: <input id="number"type="number"name="age"min="16"max="150" placeholder="55,000 years old" /> </label>
-    </fieldset>
+  <label id="name-label"for="name">Enter your First Name:<input id="name"type="text"required placeholder="John"/></label>
+   <label for="lastname">Enter your Last Name: <input id="lastname"type="text"required placeholder="C. Reilly"/></label>
+  <label id="email-label" for="email">Enter your email <input id="email"type="email"required placeholder="comfortably-numb@pinkfloyd.com"/></label>
+  <label id="number-label" for="number">Age: <input id="number"type="number"name="age"min="16"max="150" placeholder="55,000 years old" />   </label>
+  </fieldset>
     <fieldset>
     <label for="dropdown">How likely are you to attend college next year?  
       <select id="dropdown" name="dropdown"required>

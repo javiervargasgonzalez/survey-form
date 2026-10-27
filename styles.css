@@ -13,10 +13,12 @@ h1{
   font-family: Tahoma;
   color: rgba(223, 165, 126, 0.936);
 }
+
 h1,p{
   margin: 1em auto;
   text-align: center;
 }
+
 form{
   width:80vw;
   max-width: 500px;
@@ -24,6 +26,7 @@ form{
   margin: 0 auto;
   padding-bottom: 2em;
 }
+
 fieldset{
   border: none;
   padding:1rem 0;
@@ -33,24 +36,26 @@ label{
   display:block;
   margin: 0.6rem 0;
 }
+
 input,textarea,select{
   margin:10px 0 0 0;
   width: 100%;
   min-height:1em;
 }
-input
-}
+
 input,textarea{
   background-color: #1a4b8f;
   border:0.5px solid #2a4b8f;
   color: white;
   display: block
 }
+
 .inline{
   width:unset;
   margin: 0 .5em 0 0;
   vertical-align: middle;
 }
+
 input[type="submit"]{
 display: block;
 width: 60%;
@@ -62,9 +67,11 @@ border-color: rgba(134, 32, 40, 0.789);
 min-width: 300px;
 color: white;
 }
+
 input[type="file"]{
   padding: 1px 2px;
 }
+
 .inline{
   display: inline;
 }

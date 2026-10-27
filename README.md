@@ -1,10 +1,10 @@
 
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Select a career survey</title>
     
-  <style>
+<style>
     body{
   width: 100%;
   height: 100vh;
@@ -76,20 +76,20 @@ input[type="file"]{
   display: inline;
 }
 
-  </style>
-  </head>
+</style>
+</head>
   
-    <body>
-<h1 id="title">Select a Career</h1>
-<p id="description">The purpose of this survey is to know which career are you interested in and if you are willing to matriculate for this career shortly</p>
-<form id="survey-form" method="post">
+<body>
+  <h1 id="title">Select a Career</h1>
+  <p id="description">The purpose of this survey is to know which career are you interested in and if you are willing to matriculate for this career shortly</p>
+  <form id="survey-form" method="post">
   <fieldset>
-  <label id="name-label"for="name">Enter your First Name:<input id="name"type="text"required placeholder="John"/></label>
-   <label for="lastname">Enter your Last Name: <input id="lastname"type="text"required placeholder="C. Reilly"/></label>
-  <label id="email-label" for="email">Enter your email <input id="email"type="email"required placeholder="comfortably-numb@pinkfloyd.com"/></label>
-  <label id="number-label" for="number">Age: <input id="number"type="number"name="age"min="16"max="150" placeholder="55,000 years old" />   </label>
+    <label id="name-label"for="name">Enter your First Name:<input id="name"type="text"required placeholder="John"/></label>
+    <label for="lastname">Enter your Last Name: <input id="lastname"type="text"required placeholder="C. Reilly"/></label>
+    <label id="email-label" for="email">Enter your email <input id="email"type="email"required placeholder="comfortably-numb@pinkfloyd.com"/></label>
+    <label id="number-label" for="number">Age: <input id="number"type="number"name="age"min="16"max="150" placeholder="55,000 years old" />   </label>
   </fieldset>
-    <fieldset>
+  <fieldset>
     <label for="dropdown">How likely are you to attend college next year?  
       <select id="dropdown" name="dropdown"required>
         <option value="">(select one)</option>
@@ -107,17 +107,17 @@ input[type="file"]{
     <label for="Science, Technology, Engineering and Math"><input id="Science, Technology, Engineering and Math"type="radio"name="account-type"class="inline" value="radio"/> Science, Technology, Engineering and Math</label>
     <label for="Social Sciences"><input id="Social Sciences"type="radio"name="account-type"class="inline"value="radio" /> Social Sciences</label>
     <label for="Trades and Personal Services"><input id="Trades and Personal Services"type="radio"name="account-type"class="inline" value="radio"/> Trades and Personal Services</label>
-      </fieldset>
-      <fieldset>
-        <label for="bio">Tell us a bit about your interests in entering college: <textarea id="bio"name="bio"rows="4"cols="30"placeholder="college sounds like fun..."></textarea>
-        </label>
-          <label><input type="checkbox"class="inline" value="check"required/> Would you like to recieve emails about our college programs?</label>
-          <label>Please select your Gender:</label>
-          <label><input type="checkbox"class="inline" value="check"/>Male</label>
-        <label><input type="checkbox"class="inline" value="check"/>Female</label>
-         <label><input type="checkbox"class="inline" value="check"/>Other</label>
-        <input id="submit" type="submit" value="Submit" />
+  </fieldset>
+  <fieldset>
+    <label for="bio">Tell us a bit about your interests in entering college: <textarea id="bio"name="bio"rows="4"cols="30"placeholder="college sounds like fun..."></textarea>
+    </label>
+    <label><input type="checkbox"class="inline" value="check"required/> Would you like to recieve emails about our college programs?    </label>
+    <label>Please select your Gender:</label>
+    <label><input type="checkbox"class="inline" value="check"/>Male</label>
+    <label><input type="checkbox"class="inline" value="check"/>Female</label>
+    <label><input type="checkbox"class="inline" value="check"/>Other</label>
+    <input id="submit" type="submit" value="Submit" />
       
-        </fieldset>
-        </body>
-      </html>
+    </fieldset>
+</body>
+</html>
